@@ -8,7 +8,7 @@ namespace HomeWork
 {
     internal class Lesson3
     {
-        static void Main(string[] args)
+        static void Main3(string[] args)
         {
             string name;
             int year;
