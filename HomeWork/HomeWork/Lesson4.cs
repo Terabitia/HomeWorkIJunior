@@ -8,7 +8,7 @@ namespace HomeWork
 {
     internal class Lesson4
     {
-        static void Main(string[] args)
+        static void Main4(string[] args)
         {
             int numberOfPictures = 52;
             int numberInRow = 3;
