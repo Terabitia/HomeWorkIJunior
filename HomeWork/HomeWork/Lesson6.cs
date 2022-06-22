@@ -15,7 +15,7 @@ namespace HomeWork
             int crystalPrice = 10;
 
             Console.Write("Введите сколько у вас золота: ");
-            myGold=Convert.ToInt32(Console.ReadLine());
+            myGold = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine($"Цена кристала - {crystalPrice}. Сколько вы хотите купить?");
             crystals = Convert.ToInt32(Console.ReadLine());
 
