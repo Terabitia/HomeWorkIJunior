@@ -8,7 +8,7 @@ namespace HomeWork
 {
     internal class Lesson5
     {
-        static void Main(string[] args)
+        static void Main5(string[] args)
         {
             string firstName = "Петров";
             string lastName = "Роман";
