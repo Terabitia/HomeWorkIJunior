@@ -10,9 +10,7 @@ namespace HomeWork
     {
         static void Main(string[] args)
         {
-            //кол-во людей в очереди
             int numberPeople;
-            //время приема одного человека
             int receptionTime = 10;
             int waitingMinutes;
             int waitingHours;
@@ -24,13 +22,7 @@ namespace HomeWork
             waitingHours = waitingMinutes / 60;
             waitingMinutes %= 60;
 
-
             Console.WriteLine("Вы должны отстоять в очереди " + waitingHours + " часа и " + waitingMinutes + " минут.");
-            
-            
-
-
-
         }
     }
 }
