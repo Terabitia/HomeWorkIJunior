@@ -14,13 +14,14 @@ namespace HomeWork
             int receptionTime = 10;
             int waitingMinutes;
             int waitingHours;
+            int hour = 60;
 
             Console.Write("Введите кол-во людей в очереди: ");
             numberPeople = Convert.ToInt32(Console.ReadLine());
 
             waitingMinutes = numberPeople * receptionTime;
-            waitingHours = waitingMinutes / 60;
-            waitingMinutes %= 60;
+            waitingHours = waitingMinutes / hour;
+            waitingMinutes %= hour;
 
             Console.WriteLine("Вы должны отстоять в очереди " + waitingHours + " часа и " + waitingMinutes + " минут.");
         }
