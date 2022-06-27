@@ -8,7 +8,7 @@ namespace HomeWork
 {
     internal class Lesson6
     {
-        static void Main(string[] args)
+        static void Main6(string[] args)
         {
             int myGold;
             int crystals;
