@@ -8,7 +8,7 @@ namespace HomeWork
 {
     internal class Lesson10
     {
-        static void Main(string[] args)
+        static void Main10(string[] args)
         {
             int minNumber = 5;
             int maxNumber = 100;
