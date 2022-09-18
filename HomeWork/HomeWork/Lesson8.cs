@@ -21,9 +21,7 @@ namespace HomeWork
             for (; repeats > 0; repeats--)
             {
                 Console.WriteLine(message); 
-
             }
-
         }
     }
 }
