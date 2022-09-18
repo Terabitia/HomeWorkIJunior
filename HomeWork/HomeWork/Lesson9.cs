@@ -12,14 +12,11 @@ namespace HomeWork
         {
             string password= "";
             string keyword = "exit";
-            while (true)
+
+            while (password != keyword)
             {
                 Console.WriteLine("Чтобы выйти из цикла введите слово "+ keyword);
                 password = Console.ReadLine();
-                if (password == keyword)
-                {
-                    break;
-                }
             }
         }
     }
