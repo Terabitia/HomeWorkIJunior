@@ -18,7 +18,7 @@ namespace HomeWork
             Console.WriteLine("Введите кол-во повторений вашего сообщения");
             repeats = Convert.ToInt32(Console.ReadLine());
 
-            while (repeats-- > 0)
+            for (; repeats > 0; repeats--)
             {
                 Console.WriteLine(message); 
 
