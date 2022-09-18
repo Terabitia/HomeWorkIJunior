@@ -10,15 +10,19 @@ namespace HomeWork
     {
         static void Main(string[] args)
         {
-            Random rand = new Random();
-            int namber = rand.Next(0, 101);
-            int sum=0;
+            Random random = new Random();
+            int minNamber = 0;
+            int maxNamber = 101;
+            int namber = random.Next(minNamber, maxNamber);
+            int sum = 0;
             int positiveNumber;
+            int multipleThree = 3;
+            int multipleFive = 5; 
             Console.WriteLine("Случайное число: "+ namber);
 
             for (positiveNumber = 0; positiveNumber <= namber; positiveNumber++)
             {
-                if ((positiveNumber % 3 == 0) || (positiveNumber % 5 == 0))
+                if ((positiveNumber % multipleThree == 0) || (positiveNumber % multipleFive == 0))
                 {
                     sum += positiveNumber;
                 }
