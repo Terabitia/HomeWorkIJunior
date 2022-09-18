@@ -8,7 +8,7 @@ namespace HomeWork
 {
     internal class Lesson8
     {
-        static void Main(string[] args)
+        static void Main8(string[] args)
         {
             string message;
             int repeats;
