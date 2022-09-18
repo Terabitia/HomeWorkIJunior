@@ -17,19 +17,20 @@ namespace HomeWork
             int namber = random.Next(minNamber, maxNamber);
             int sum = 0;
             int positiveNumber;
-            int multipleMin = 3;
-            int multipleMax = 5; 
+            int multiple1 = 3;
+            int multiple2 = 5; 
 
             Console.WriteLine("Случайное число: "+ namber);
 
             for (positiveNumber = 0; positiveNumber <= namber; positiveNumber++)
             {
-                if ((positiveNumber % multipleMin == 0) || (positiveNumber % multipleMax == 0))
+                if ((positiveNumber % multiple1 == 0) || (positiveNumber % multiple2 == 0))
                 {
                     sum += positiveNumber;
                 }
             }
-            Console.WriteLine("Сумма всех чисел кратные "+ multipleMin +" или " + multipleMax+": " + sum);
+
+            Console.WriteLine("Сумма всех чисел кратные "+ multiple1 + " или " + multiple2 + ": " + sum);
         }
     }
 }
