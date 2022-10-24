@@ -8,27 +8,30 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Liza\\.nuget\\packages\\": {}
+    "C:\\Users\\loon1\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\HomeWork\\HomeWorkIJunior\\HomeWork\\HomeWork\\HomeWork.csproj",
+      "projectUniqueName": "C:\\Git\\HomeWorkIJunior\\HomeWorkIJunior\\HomeWork\\HomeWork\\HomeWork.csproj",
       "projectName": "HomeWork",
-      "projectPath": "C:\\HomeWork\\HomeWorkIJunior\\HomeWork\\HomeWork\\HomeWork.csproj",
-      "packagesPath": "C:\\Users\\Liza\\.nuget\\packages\\",
-      "outputPath": "C:\\HomeWork\\HomeWorkIJunior\\HomeWork\\HomeWork\\obj\\",
+      "projectPath": "C:\\Git\\HomeWorkIJunior\\HomeWorkIJunior\\HomeWork\\HomeWork\\HomeWork.csproj",
+      "packagesPath": "C:\\Users\\loon1\\.nuget\\packages\\",
+      "outputPath": "C:\\Git\\HomeWorkIJunior\\HomeWorkIJunior\\HomeWork\\HomeWork\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
       "configFilePaths": [
-        "C:\\Users\\Liza\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\loon1\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://api.nuget.org/v3/index.json": {}
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {}
       },
       "frameworks": {
         "net6.0": {

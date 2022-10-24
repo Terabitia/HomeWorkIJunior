@@ -8,7 +8,7 @@ namespace HomeWork
 {
     internal class Lesson11
     {
-        static void Main(string[] args)
+        static void Main11(string[] args)
         {
             Random random = new Random();
 
