@@ -41,7 +41,7 @@ namespace HomeWork
                     "\nРубли - " + keyRub + ", Доллары - " + keyUsd + ", Йены - " + keyJpy + ":");
                 keyTwoCurrency = Console.ReadLine();
                 Console.WriteLine("Сколько вы хотите перевести?");
-                TransferCurrency = Convert.ToSingle (Console.ReadLine());
+                TransferCurrency = Convert.ToSingle(Console.ReadLine());
 
                 if (keyOneCurrency != keyTwoCurrency)
                 {
@@ -51,23 +51,48 @@ namespace HomeWork
                         {
                             RUB -= TransferCurrency;
                             USD += TransferCurrency * RubUsd;
-                        } 
+                        }
                         else if (keyTwoCurrency == keyJpy)
                         {
                             RUB -= TransferCurrency;
                             JPY += TransferCurrency * RubJpy;
                         }
-                        
                     }
-                }    
+                    else if (keyOneCurrency == keyUsd)
 
+                    {
+                        if (keyTwoCurrency == keyRub)
+                        {
+                            USD -= TransferCurrency;
+                            RUB += TransferCurrency / RubUsd;
+
+                        }
+                        else if (keyTwoCurrency == keyJpy)
+                        {
+                            USD -= TransferCurrency;
+                            JPY += TransferCurrency / JpyUsd;
+                        }
+                    }
+                    else if (keyOneCurrency == keyJpy)
+
+                    {
+                        if (keyTwoCurrency == keyUsd)
+                        {
+                            JPY -= TransferCurrency;
+                            USD += TransferCurrency * JpyUsd;
+                        }
+                        else if (keyTwoCurrency == keyRub)
+                        {
+                            JPY -= TransferCurrency;
+                            RUB += TransferCurrency / RubJpy;
+                        }
+                    }
+
+                }
+                Console.WriteLine($"После обмена валют у вас осталось {keyRub}={RUB}, {keyUsd}={USD}, {keyJpy}={JPY}");
                 Console.WriteLine("Если хотите завершить обмен введитете: " + keyword);
                 password = Console.ReadLine();
             }
-
-
         }
-
-
     }
 }
