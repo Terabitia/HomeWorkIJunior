@@ -5,12 +5,6 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace HomeWork
-{
-    internal class Lesson12
-    {
-
-
-namespace HomeWork
     {
         internal class Lesson12
         {
