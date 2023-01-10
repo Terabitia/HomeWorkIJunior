@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace HomeWork
-    {
+{
         internal class Lesson12
         {
             static void Main(string[] args)
@@ -142,6 +142,4 @@ namespace HomeWork
                 }
             }
         }
-    }
-
-}
+ }
