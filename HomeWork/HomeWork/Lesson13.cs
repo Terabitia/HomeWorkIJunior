@@ -20,7 +20,6 @@ namespace HomeWork
             int year = 0;
             string loginPassword = "";
             string userInput;
-            string userInputLogin;
             bool isWorking = true;
 
             Console.WriteLine("Добро пожаловать в наш закрытый компьютерный клуб.");
@@ -41,15 +40,20 @@ namespace HomeWork
                         Console.WriteLine("Как вас зовут?");
                         name = Console.ReadLine();
                         break;
+
                     case YearInputCommand:
                         Console.WriteLine("Уточните ваш возраст: ");
                         year = Convert.ToInt32(Console.ReadLine());
                         break;
+
                     case PasswordInputCommand:
                         Console.WriteLine("Придумайте ваш личный пароль:");
                         loginPassword = Console.ReadLine();
                         break;
+
                     case LoginPasswordInputCommand:
+                        string userInputLogin;
+
                         Console.WriteLine("Введите ваш пароль для просмотра информации: ");
                         userInputLogin = Console.ReadLine();
                         
@@ -62,9 +66,11 @@ namespace HomeWork
                             Console.WriteLine("Пароль неверный.");
                         }
                         break;
+
                     case ExitInputCommand:
                         isWorking = false;
                         break;
+
                     default:
                         Console.WriteLine("Нет такого пункта в меню");
                         break;
