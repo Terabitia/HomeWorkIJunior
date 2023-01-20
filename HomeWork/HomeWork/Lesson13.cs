@@ -23,8 +23,6 @@ namespace HomeWork
             string userInputLogin;
             bool isMenu = true;
 
-            //хочется чтобы человек сам придумал свой пароль для входа в систему(как это сделать ) мб как то const использовать
-
             Console.WriteLine("Добро пожаловать в наш закрытый компьютерный клуб.");
             
             while (isMenu)
@@ -36,6 +34,7 @@ namespace HomeWork
                 Console.WriteLine(ExitInputCommand + " - Выход.");
 
                 userInput = Console.ReadLine();
+
                 switch (userInput)
                 {
                     case NameInputCommand:
