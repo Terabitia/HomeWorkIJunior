@@ -21,11 +21,11 @@ namespace HomeWork
             string loginPassword = "";
             string userInput;
             string userInputLogin;
-            bool isMenu = true;
+            bool isWorking = true;
 
             Console.WriteLine("Добро пожаловать в наш закрытый компьютерный клуб.");
             
-            while (isMenu)
+            while (isWorking)
             {
                 Console.WriteLine(NameInputCommand + " - Ввести ваше имя.");
                 Console.WriteLine(YearInputCommand + " - Ввести ваш возраст.");
@@ -63,7 +63,7 @@ namespace HomeWork
                         }
                         break;
                     case ExitInputCommand:
-                        isMenu = false;
+                        isWorking = false;
                         break;
                     default:
                         Console.WriteLine("Нет такого пункта в меню");
