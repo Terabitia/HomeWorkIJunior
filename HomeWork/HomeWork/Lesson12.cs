@@ -8,7 +8,7 @@ namespace HomeWork
 {
         internal class Lesson12
         {
-            static void Main(string[] args)
+            static void Main12(string[] args)
             {
                 const string RubToUsdInputCommand = "1";
                 const string UsdToRubInputCommand = "2";
